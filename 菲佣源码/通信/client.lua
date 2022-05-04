@@ -1,7 +1,7 @@
 -- client.lua
 local socket = require("socket")
  
-local host = "192.168.10.23"
+local host = "127.0.0.1"
 local port = 12345
 local sock = assert(socket.connect(host, port))
 sock:settimeout(0)

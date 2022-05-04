@@ -1,7 +1,7 @@
 -- server.lua
 local socket = require("socket")
  
-local host = "192.168.10.23"
+local host = "127.0.0.1"
 local port = "12345"
 local server = assert(socket.bind(host, port, 1024))
 print (server)
